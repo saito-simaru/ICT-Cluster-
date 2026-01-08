@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 85cf0b004bc4a654b9e501efcce47902, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.57845426, g: 0.61572915, b: 0.60872644, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -177,7 +177,7 @@ GameObject:
   m_Component:
   - component: {fileID: 271902780}
   - component: {fileID: 271902779}
-  m_Layer: 0
+  m_Layer: 21
   m_Name: postprossec
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -197,7 +197,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sharedProfile: {fileID: 11400000, guid: ccc65cc49abbb194b9427eb560950914, type: 2}
-  isGlobal: 0
+  isGlobal: 1
   blendDistance: 0
   weight: 1
   priority: 0
@@ -438,6 +438,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: 2b8158068b2acf74aabd095ff36cbea9, type: 2}
+    - target: {fileID: -1349290684110573612, guid: 69787fa296cc63940ace3f5cb41444a9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a26e45e5767b054390186623926f7b0, type: 2}
     - target: {fileID: -433781910674660567, guid: 69787fa296cc63940ace3f5cb41444a9, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
@@ -450,6 +454,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "ICT\u5730\u5F62"
       objectReference: {fileID: 0}
+    - target: {fileID: 2159899567573081409, guid: 69787fa296cc63940ace3f5cb41444a9, type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 04eea3338cd657546b253bf6af704015, type: 2}
     - target: {fileID: 7552352536186366672, guid: 69787fa296cc63940ace3f5cb41444a9, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
@@ -710,6 +718,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: adeb5962b76b9d34592077674b1b470c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0f2abbad6adc6d941b7a754b9b05b4dc, type: 2}
     - target: {fileID: 919132149155446097, guid: adeb5962b76b9d34592077674b1b470c, type: 3}
       propertyPath: m_Name
       value: "\u53F0\u5EA7\uFF08\uFF15\uFF0E\uFF10\uFF09"
